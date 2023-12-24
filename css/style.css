@@ -1,0 +1,75 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f6d050;
+}
+
+/* card container */
+.card-container {
+    background-color: #fafafa;
+    width: 282px;
+    border: 1px solid #000;
+    box-shadow: 8px 3px 2px #000;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    top: 150px;
+    height: 400px;
+}
+.image img {
+    max-width: 240px;
+    border-radius: 10px;
+}
+/* Pre definições */
+.bold {
+    font-weight: bold;
+}
+
+/* Aprendizado */
+.learning h4 {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    background-color: #f6d050;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.learning p {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-transform: lowercase;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+/* Primary */
+.primary-container h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.primary-container p {
+    margin-top: -10px;
+    line-height: 22px;
+    color: #5a5a5a;
+    font-size: 15px;
+}
+
+/* Author */
+.author-container img{
+    max-width: 25px;
+    margin-top: 5px;
+}
+.author-container h5 {
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    left: 2px;
+}
